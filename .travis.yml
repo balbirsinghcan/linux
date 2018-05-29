@@ -1,8 +1,9 @@
 addons:
   apt:
-   gcc-snapshot
+    packages:
+    - gcc-snapshot
 
 language: c
 script:
-	build_and_run.sh
+	- ./build_and_run.sh
 

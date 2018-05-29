@@ -5,5 +5,5 @@ addons:
 
 language: c
 script:
-	- ./build_and_run.sh
+  - ./build_and_run.sh
 
